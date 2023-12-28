@@ -1,15 +1,15 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import Home from "../Pages/Home";
-import Categorys from "../Pages/Categorys";
-import Search from "../Pages/Search";
-import Detail from "../Pages/Detail";
-import Favorites from "../Pages/Favorites";
+import Home from "../pages/Home";
+import Categorys from "../pages/Categorys";
+import Search from "../pages/Search";
+import Detail from "../pages/Detail";
+import Favorites from "../pages/Favorites";
 
 export default function Routes() {
   const Stack = createNativeStackNavigator();
-  
+
   return (
     <Stack.Navigator>
       <Stack.Screen
