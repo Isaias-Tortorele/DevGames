@@ -3,8 +3,8 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 
 import { AntDesign, Feather } from "@expo/vector-icons";
 
-import { navigateToScreen } from "../../Utils/NavigationUtils";
-import { toggleFavorite } from "../../Utils/FavoriteUtils";
+import { navigateToScreen } from "../../utils/NavigationUtils";
+import { toggleFavorite } from "../../utils/FavoriteUtils";
 
 export default function Card({ data, isFavorite }) {
   const handleDetail = navigateToScreen("Detail", { data });

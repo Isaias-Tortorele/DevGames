@@ -4,7 +4,7 @@ import { StyleSheet, View, FlatList } from "react-native";
 import BackOut from "../../components/BackOut";
 import Card from "../../components/Card";
 
-import { loadFavorites } from "../../Utils/FavoriteUtils";
+import { loadFavorites } from "../../utils/FavoriteUtils";
 
 export default function Favorites({ route }) {
   const { headerTitle } = route.params;

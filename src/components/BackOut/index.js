@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 import { Feather } from "@expo/vector-icons";
-import { navigateGoBack } from "../../Utils/NavigationUtils";
+import { navigateGoBack } from "../../utils/NavigationUtils";
 
 export default function BackOut({ title }) {
   const handleGoBack = navigateGoBack();

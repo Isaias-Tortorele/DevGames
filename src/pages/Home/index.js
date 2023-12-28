@@ -15,8 +15,8 @@ import CategorysList from "../../components/CategorysList";
 import { Feather } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
-import { navigateToScreen } from "../../Utils/NavigationUtils";
-import { fetchGames, loadGames, loadGenres } from "../../Utils/ApiUtils";
+import { navigateToScreen } from "../../utils/NavigationUtils";
+import { fetchGames, loadGames, loadGenres } from "../../utils/ApiUtils";
 
 export default function Home() {
   const navigation = useNavigation();

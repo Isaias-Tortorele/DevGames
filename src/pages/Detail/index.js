@@ -12,7 +12,7 @@ import {
 
 import WebLink from "../../components/LinkWeb";
 
-import { fetchGameDetails } from "../../Utils/ApiUtils";
+import { fetchGameDetails } from "../../utils/ApiUtils";
 
 import { AntDesign } from "@expo/vector-icons";
 import ButtonBack from "../../components/Ui/ButtonBack";

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { View, FlatList, StyleSheet, Text } from "react-native";
 
-import { loadGenreGames } from "../../Utils/ApiUtils";
+import { loadGenreGames } from "../../utils/ApiUtils";
 
 import Card from "../../components/Card";
 import BackOut from "../../components/BackOut";

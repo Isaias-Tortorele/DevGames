@@ -3,8 +3,8 @@ import { StyleSheet, TouchableOpacity, View } from "react-native";
 
 import { Ionicons, Feather } from "@expo/vector-icons";
 
-import { navigateGoBack } from "../../../Utils/NavigationUtils";
-import { toggleFavorite, loadFavorites } from "../../../Utils/FavoriteUtils";
+import { navigateGoBack } from "../../../utils/NavigationUtils";
+import { toggleFavorite, loadFavorites } from "../../../utils/FavoriteUtils";
 
 export default function ButtonBack({ data }) {
   const handleGoBack = navigateGoBack();

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
-import { navigateToScreen } from "../../Utils/NavigationUtils";
+import { navigateToScreen } from "../../utils/NavigationUtils";
 
 export default function CategorysList({ data }) {
   const handleCategorys = navigateToScreen("Categorys", { data });
