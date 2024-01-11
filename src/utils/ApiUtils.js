@@ -5,7 +5,7 @@ export async function fetchGameDetails(name) {
     const response = await api.get(`/games/${name}`);
     return response.data;
   } catch (error) {
-    console.log("Error fetching game details: ", error);
+    
     return true;
   }
 }
@@ -42,7 +42,7 @@ export async function loadGenreGames(genreId) {
     const response = await api.get(`/games?genres=${genreId}`);
     return response.data.results;
   } catch (error) {
-    console.log("Error fetching genre games: ", error);
+
     return [];
   }
 }
@@ -53,7 +53,7 @@ export async function loadGames(setGames, setLoading) {
     setGames(response.data.results);
     setLoading(false);
   } catch (error) {
-    console.log("Error loading games: ", error);
+    
   }
 }
 
@@ -62,6 +62,5 @@ export async function loadGenres(setGenres) {
     const response = await api.get("/genres");
     setGenres(response.data.results);
   } catch (error) {
-    console.log("Error loading genres: ", error);
   }
 }
